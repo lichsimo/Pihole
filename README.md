@@ -1,2 +1,2 @@
 # Pihole
-Bakcup files and Whitelist Share
+Backup files and Whitelist Share
