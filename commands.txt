@@ -1,0 +1,2 @@
+# remove all adlist entries
+sudo sqlite3 /etc/pihole/gravity.db "DELETE FROM adlist;"
