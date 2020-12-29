@@ -50,4 +50,3 @@ https://www.joewein.net/dl/bl/dom-bl-base.txt
 https://www.malwaredomainlist.com/hostslist/hosts.txt
 https://www.sunshine.it/blacklist.txt
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
-https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
