@@ -1,6 +1,13 @@
 # Pihole Adlist, Whitelist, Blacklist collection
 also some usefull commands
 
+blocklist.*.txt can be added into the Adlists or for testing into the Blacklist
+https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.samsung.txt
+https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.spotify.txt
+https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.youtube.regex.txt
+https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.youtube.txt
+
+blocklist.txt is the "real" Blacklist with some entries for specific programs
 
 ## Powershell
 ### Sort txt
