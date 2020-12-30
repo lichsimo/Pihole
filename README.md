@@ -1,15 +1,20 @@
 # Pihole Adlist, Whitelist, Blacklist collection
-## Also usefull commands 
+also some usefull commands
 
 
-# POWERSHELL
-## Convert Pihole Backup json to txt
-### whitelist.exact
+## Powershell
+### Convert Pihole Domain json to txt
+**whitelist.exact**
 $json = (Get-Content .\whitelist.exact.json) | Out-String | ConvertFrom-Json
 $json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.exact.txt
-### whitelist.regex
+**whitelist.regex**
 $json = (Get-Content .\whitelist.regex.json) | Out-String | ConvertFrom-Json
 $json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.regex.txt
 
-# remove all adlist entries
+### Convert Pihole adlist json to txt
+$json = (Get-Content .\adlist.json) | Out-String | ConvertFrom-Json
+$json | Select address | Sort | FT -hidetableheaders | Out-File .\adlist.txt
+
+## Pihole / Linux
+### remove all adlist entries from gravity.db
 sudo sqlite3 /etc/pihole/gravity.db "DELETE FROM adlist;"
