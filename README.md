@@ -3,6 +3,10 @@ also some usefull commands
 
 
 ## Powershell
+### Sort txt
+```console
+(Get-Content .\adlist.txt) | Sort | Out-File .\adlist.txt
+```
 ### Convert Pihole Domain json to txt
 **whitelist.exact**
 
