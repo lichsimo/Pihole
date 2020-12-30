@@ -18,10 +18,21 @@ https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.youtube.txt
 ## Blacklist
 blacklist.txt is the "real" blacklist with Youtube regex domains and some entries for specific programs that I use on multiple clients and don't want to let them talk to their vendor.
 
-Blacklist 2020.30.12
-![Blacklist-Image](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Blacklist.png)
+## Whitelist
+Collection from own experience, many many reddit threats and other github repositories.
 
-## Powershell
+<br></br>
+
+# Usefull Tools
+[PADD](https://github.com/pi-hole/padd)
+
+[Windows Terminal](https://github.com/microsoft/terminal)
+
+![Windows Terminal Profiles](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/WTProfiles.png)
+
+<br></br>
+
+# Commands
 ### Sort txt
 ```console
 (Get-Content .\adlist.txt) | Sort | Out-File .\adlist.txt
