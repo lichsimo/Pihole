@@ -1,0 +1,42 @@
+# Spotify's Anti-Adveritsing blocking servers, tricking services to stop music services (DONT BLOCK THESE!):
+gcdn.2mdn.net
+r9---sn-n4v7kn76.c.2mdn.net
+gew1-accesspoint-b-zzfg.ap.spotify.com
+ns1.p23.dynect.net
+ns3.p23.dynect.net
+ns4.p23.dynect.net
+dns1.p07.nsone.net
+dns2.p07.nsone.net
+dns3.p07.nsone.net
+dns4.p07.nsone.net
+audio-sp-fra2.pscdn.co
+104.199.65.11
+
+# Don't block entries below, they are needed for Spotify to be fully functional.
+apresolve.spotify.com
+api-spotify.com
+api-partner.spotify.com
+api-tv.spotify.com
+ash-dealer.spotify.com
+ash.weblb-wg.dual-gslb.spotify.com
+audio-sp.spotify.com
+audio-fa.spotify.com
+dealer.spotify.com
+dealer-ssl.spotify.com
+gslb.spotify.com
+open.scdn.co
+open.spotify.com
+play.spotify.com
+spclient.spotify.com
+sto3.spotify.com
+wg.spotify.com
+geo3.ggpht.com
+googlehosted.l.googleusercontent.com
+redirector.gvt1.com
+
+# Optional: If you want to listen to music on your TV, or for cover art example.
+tv.scdn.co
+i.scdn.co
+o.scdn.co
+p.scdn.co
+t.scdn.co
