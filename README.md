@@ -41,6 +41,10 @@ $json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.exact
 $json = (Get-Content .\whitelist.regex.json) | Out-String | ConvertFrom-Json
 $json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.regex.txt
 ```
+### Select unique entries from a list
+```console
+(Get-Content .\blocklist.spotify.txt) | Select -Unique | Out-File .\blocklist.spotify.txt
+```
 
 ### Convert Pihole adlist json to txt
 ```console
