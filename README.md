@@ -9,7 +9,7 @@ https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.youtube.txt
 blacklist.txt is the "real" Blacklist with youtube regex and some entries for specific programs
 
 Blacklist 2020.30.12
-![Blacklist-Image](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Blacklist.png
+![Blacklist-Image](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Blacklist.png)
 
 ## Powershell
 ### Sort txt
