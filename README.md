@@ -1,12 +1,21 @@
 # Pihole Adlist, Whitelist, Blacklist collection
-also some usefull commands
+also some usefull commands and in the future my wireshark vpn configuration
 
-### my own blacklist as raw file
+## Adlist
+At the moment i am using 56 adlists. All sorted inside adlist.txt.
+Together there are more than 2.5 million entries
+Domains on Blocklist 2020.30.12
+
+![DomainsOnBlocklist](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/DomainsOnBlocklist.png)
+
+### my own blocklists as raw file
+
 https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.samsung.txt
 https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.spotify.txt
 https://raw.githubusercontent.com/lichsimo/Pihole/master/blocklist.youtube.txt
 
-blacklist.txt is the "real" Blacklist with youtube regex and some entries for specific programs
+## Blacklist
+blacklist.txt is the "real" blacklist with Youtube regex domains and some entries for specific programs that I use on multiple clients and don't want to let them talk to their vendor.
 
 Blacklist 2020.30.12
 ![Blacklist-Image](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Blacklist.png)
@@ -17,6 +26,8 @@ Blacklist 2020.30.12
 (Get-Content .\adlist.txt) | Sort | Out-File .\adlist.txt
 ```
 ### Convert Pihole Domain json to txt
+With `Format-Table` (FT) and the `-hidetableheaders` parameter i bypass the default PowerShell header output.
+
 **whitelist.exact**
 
 ```console
