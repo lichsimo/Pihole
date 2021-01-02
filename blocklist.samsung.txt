@@ -10,7 +10,6 @@ appboot.netflix.com
 art-0.nflximg.net
 art-1.nflximg.net
 art-2.nflximg.net
-assets.nflxext.com
 auth.samsungosp.com
 az43064.vo.msecnd.net
 cdn-0.nflximg.com
