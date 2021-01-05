@@ -5,7 +5,7 @@ also some usefull commands and in the future my wireshark vpn configuration
 At the moment i am using 56 adlists. All sorted inside adlist.txt.
 Together there are more than 2 million entries inside these lists.
 
-![DomainsOnBlocklist](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/DomainsOnBlocklist.png)
+![DomainsOnBlocklist](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Domains.png)
 
 ### my own blocklists as raw file
 
