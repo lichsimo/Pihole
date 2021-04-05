@@ -1,5 +1,5 @@
 # Pihole Adlist, Whitelist, Blacklist collection
-also some usefull commands and in the future my wireshark vpn configuration
+Also some usefull commands and in the future my wireshark vpn configuration
 
 ## Adlist
 At the moment i am using 56 adlists. All sorted inside adlist.txt.
