@@ -42,7 +42,7 @@ With `Format-Table` (FT) and the `-hidetableheaders` parameter i bypass the defa
 
 ```
 $json = (Get-Content .\whitelist.exact.json) | Out-String | ConvertFrom-Json
-$json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.exact.txt
+$json | Select domain | Sort domain | FT -hidetableheaders | Out-File .\whitelist.exact.txt
 ```
 
 **whitelist.regex**
