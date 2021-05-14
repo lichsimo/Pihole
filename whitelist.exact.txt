@@ -134,6 +134,7 @@ b.stats.paypal.com
 bad-dragon.com
 bella.alphalock.cloud
 betanews.com
+binance.com
 bit.do
 bit.ly
 bitbucket.org
@@ -195,6 +196,8 @@ cfimage.moengage.com
 cfvod.kaltura.com
 chaseonline.chase.com
 chat-gateway-prod.chat.snapchat.com
+check.ddos-guard.net
+checkip.amazonaws.com
 chromefeedcontentsuggestions-pa.googleapis.com
 ci.phncdn.com
 cl.s10.exct.net
@@ -260,7 +263,6 @@ d2c8v52ll5s99u.cloudfront.net
 d2gatte9o95jao.cloudfront.net
 d2wy8f7a9ursnm.cloudfront.net
 d2zah9y47r7bi2.cloudfront.net
-dashboard-03.braze.com
 dashboard.evolveplatform.net
 dashboard.plex.tv
 data.coremetrics.com
@@ -270,6 +272,7 @@ datadoghq-browser-agent.com
 dataplicity.com
 datarouter.ol.epicgames.com
 dauth-lp1.ndas.srv.nintendo.net
+ddos-guard.net
 ddownload.com
 de-de.facebook.com
 de.ioam.de
@@ -365,6 +368,7 @@ fonts.googleapis.com
 fonts.gstatic.com
 forums.sonarr.tv
 frsd.k12.nj.us
+fs.microsoft.com
 fsa.zobj.net
 full.pr0gramm.com
 g.bing.com
@@ -476,7 +480,6 @@ jdoqocy.com
 jdownloader.org
 jquery.com
 js-agent.newrelic.com
-js.appboycdn.com
 jsdelivr.net
 jsv3.recruitics.com
 k.googlevideo.com
@@ -492,6 +495,7 @@ launcher-content.rebellion.co.uk
 launcher.mojang.com
 lcprd1.samsungcloudsolution.net
 leakreality.com
+lenovo.7eer.net
 lenovo.evergage.com
 lh3.googleusercontent.com
 lh5.googleusercontent.com
@@ -500,15 +504,16 @@ libs.coremetrics.com
 license.unity3d.com
 licensing.xboxlive.com
 lifehacker.com
+linkifier.com
 lists.gnu.org
 live.com
+livebyuh-my.sharepoint.com
 log.olark.com
 login.aliexpress.com
 login.live.com
 login.microsoftonline.com
 login.nvgs.nvidia.cn
 login.windows.net
-logx.optimizely.com
 lumserve.raritanval.edu
 m.hotmail.com
 m.pr0gramm.com
@@ -586,6 +591,7 @@ ntp.psn.ru
 ntp.ubuntu.com
 nudespree.com
 nvidia.tt.omtrdc.net
+nyc3.digitaloceanspaces.com
 nymag.com
 o.scdn.co
 o1.email.plex.tv
@@ -627,6 +633,7 @@ outlookmobile-office365-tas.msedge.net
 ow.ly
 p.imgur.com
 p.scdn.co
+p2p.binance.com
 pandora.com
 pasta.estrongspro.duapps.com
 pastebin.com
@@ -742,7 +749,6 @@ scontent-lga3-1.xx.fbcdn.net
 scontent.xx.fbcdn.net
 scr.wfcdn.de
 script.ioam.de
-sdk.fra-01.braze.eu
 search.hotspotshield.com
 secure-au.imrworldwide.com
 secure.avangate.com
@@ -753,6 +759,7 @@ secure.logmein.com
 secure.netflix.com
 secure.quantserve.com
 secure.surveymonkey.com
+self.events.data.microsoft.com
 services.gfe.nvidia.com
 services.sonarr.tv
 setiboincdata.ssl.berkeley.edu
@@ -763,6 +770,7 @@ sharepoint.com
 shealth-api.samsunghealth.com
 shemalestube.com
 sites.google.com
+skyapi.onedrive.live.com
 skyhook.sonarr.tv
 skype.com
 sleazyneasy.com
@@ -788,6 +796,7 @@ sso.internetat.tv
 staging.plex.tv
 star-mini.c10r.facebook.com
 star.c10r.facebook.com
+start.ledgerwallet.com
 static-cdn.jtvnw.net
 static-cl.xhcdn.com
 static.atgsvcs.com
@@ -799,6 +808,7 @@ status.plex.tv
 steamcdn-a.akamaihd.net
 sto3.spotify.com
 storage.googleapis.com
+store-images.s-microsoft.com
 storecatalogrevocation.storequality.microsoft.com
 storeedgefd.dsx.mp.microsoft.com
 stun.us.demonware.net
@@ -844,6 +854,7 @@ title.auth.xboxlive.com
 title.mgt.xboxlive.com
 tlu.dl.delivery.mp.microsoft.com
 tomshardware.com
+track.aliexpress.com
 track.jobs.net
 track.shipstation.com
 tracker.aletorrenty.pl
@@ -870,6 +881,7 @@ tracking.epicgames.com
 tracking.icims.com
 traffic.libsyn.com
 treasurydirect.gov
+tsfe.trafficshaping.dsp.mp.microsoft.com
 tspprs.com
 tumblr.com
 tv.scdn.co
@@ -920,6 +932,7 @@ w3schools.com
 wdcp.microsoft.com
 wdcpalt.microsoft.com
 weather.com
+web.vortex.data.microsoft.com
 webengage.com
 webshows.provider.plex.tv
 weebly.com
@@ -943,6 +956,7 @@ www.ashemaletube.com
 www.backup-utility.com
 www.bankofamerica.com
 www.bbc.com
+www.binance.com
 www.bit.ly
 www.celebjihad.com
 www.celebritymoviearchive.com
