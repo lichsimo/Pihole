@@ -1,66 +1,65 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{ce16ace7-1d28-4bde-9db8-b62ac80abb29}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
 	"disabledProfileSources": ["Windows.Terminal.Azure", "Windows.Terminal.PowershellCore"],
 
     "copyOnSelect": false,
+
     "copyFormatting": false,
 
-    "profiles": {
-        "defaults": {
+
+    "profiles":
+    {
+        "defaults":
+        {
         },
-        "list": [ {
-                "guid": "{ce16ace7-1d28-4bde-9db8-b62ac80abb29}",
-                "name": "PowerShell 7",
+        "list":
+        [
+			{
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "name": "PowerShell",
                 "commandline": "pwsh.exe",
-				"icon": "S:/Drive/Icons/pwsh.ico"
-            }, {
+				"icon": "P:/OneDrive/Icons/pwsh.ico"
+            },{
 				"guid": "{0613653e-a640-453f-a564-97097c13251d}",
                 "name": "Pi-Hole",
                 "commandline": "ssh root@192.168.0.4",
 				"suppressApplicationTitle": true,
 				"closeOnExit": true,
-				"icon": "S:/Drive/Icons/pihole.png"
-            }, {
-                "name": "Pi-Hole PADD",
-                "commandline": "ssh -t root@192.168.0.4 \"bash padd.sh\"",
-				"suppressApplicationTitle": true,
-				"closeOnExit": true,
-				"icon": "S:/Drive/Icons/pihole.png"
-            }, {
-				 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-				 "hidden": false,
-				 "name": "Ubuntu",
-				 "source": "Windows.Terminal.Wsl"
-			}, {
+				"icon": "P:/OneDrive/Icons/pihole.png"
+            },
+            {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "PowerShell 5",
                 "commandline": "powershell.exe"
-            }, {
-				"guid": "{0101f6fe-047d-41fc-8396-c1ad84ed3e01}",
-                "name": "DISKPART",
-				"commandline": "diskpart"
-            }, {
-                "name": "PowerShell 7 C:\\",
-                "commandline": "pwsh.exe -WorkingDirectory C:\\",
-				"icon": "S:/Drive/Icons/pwsh.ico"
-            }, {
+            },
+            {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "name": "CMD",
+                "name": "Command Prompt",
                 "commandline": "cmd.exe"
+            }, {
+                "name": "pwsh C:\\",
+                "commandline": "pwsh.exe -WorkingDirectory C:\\",
+				"icon": "P:/OneDrive/Icons/pwsh.ico"
+            }, {
+                "name": "pwsh WindowsTweaks",
+                "commandline": "pwsh.exe -WorkingDirectory P:\\Develop\\WindowsTweaks",
+				"icon": "P:/OneDrive/Icons/pwsh.ico"
             }
-        ] },
+            
+        ]
+    },
 
     "schemes": [],
 
-    "keybindings": [
-		{ "command": "commandPalette", "keys": "ctrl+shift+p" },
-		
+    "actions":
+    [
         { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
         { "command": "paste", "keys": "ctrl+v" },
 
         { "command": "find", "keys": "ctrl+shift+f" },
+
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
     ]
 }
