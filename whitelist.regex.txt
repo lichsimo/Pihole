@@ -1,21 +1,22 @@
 
 (\.|^)dl\.delivery\.mp\.microsoft\.com*$
-(\.|^)store*\.dsx\.mp\.microsoft\.com*$
-(\.|^)slscr\.update\.microsoft\.com*$
-(\.|^)sls\.update\.microsoft\.com*$
-(\.|^)purchase\.mp\.microsoft\.com*$
-(\.|^)fe3\.*\.mp\.microsoft\.com\.*$
-(\.|^)*windowsupdate\.com*$
-(\.|^)*wac\.phicdn\.net*$
-(\.|^)xp1\.ru4\.com$
-(\.|^)*settings\.data\.microsoft\.com\.akadns\.net$
-(\.|^)*prod\.do\.dsp\.mp\.microsoft\.com*$
-(\.|^)smartscreen\.microsoft\.com*$
-(\.|^)*img-prod-cms-rt-microsoft-com*$
-(\.|^)*geo-prod\.do\.dsp\.mp\.microsoft\.com*$
-(\.|^)*emdl\.ws\.microsoft\.com*$
-(\.|^)*displaycatalog\.*mp\.microsoft\.com*$
 (\.|^)download\.windowsupdate\.com*$
+(\.|^)*displaycatalog\.*mp\.microsoft\.com*$
+(\.|^)*emdl\.ws\.microsoft\.com*$
+(\.|^)*geo-prod\.do\.dsp\.mp\.microsoft\.com*$
+(\.|^)*img-prod-cms-rt-microsoft-com*$
+(\.|^)smartscreen\.microsoft\.com*$
+(\.|^)*prod\.do\.dsp\.mp\.microsoft\.com*$
 (\.|^)*purchase\.md\.mp\.microsoft\.com\.akadns\.net$
+(\.|^)*settings\.data\.microsoft\.com\.akadns\.net$
+(\.|^)*wac\.phicdn\.net*$
+(\.|^)*windowsupdate\.com*$
+(\.|^)fe3\.*\.mp\.microsoft\.com\.*$
+(\.|^)purchase\.mp\.microsoft\.com*$
+(\.|^)sls\.update\.microsoft\.com*$
+(\.|^)slscr\.update\.microsoft\.com*$
+(\.|^)store*\.dsx\.mp\.microsoft\.com*$
+(\.|^)xp1\.ru4\.com$
 (\.|^)s{1\.\.5}\.symcb\.com$
+.ledgerwallet.com
 

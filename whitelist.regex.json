@@ -1,0 +1,182 @@
+[
+    {
+        "id": 337,
+        "type": 2,
+        "domain": "(\\.|^)dl\\.delivery\\.mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186548,
+        "date_modified": 1590186548,
+        "comment": ""
+    },
+    {
+        "id": 338,
+        "type": 2,
+        "domain": "(\\.|^)download\\.windowsupdate\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186608,
+        "date_modified": 1590186608,
+        "comment": ""
+    },
+    {
+        "id": 339,
+        "type": 2,
+        "domain": "(\\.|^)*displaycatalog\\.*mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186628,
+        "date_modified": 1590186628,
+        "comment": ""
+    },
+    {
+        "id": 340,
+        "type": 2,
+        "domain": "(\\.|^)*emdl\\.ws\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186691,
+        "date_modified": 1590186691,
+        "comment": ""
+    },
+    {
+        "id": 341,
+        "type": 2,
+        "domain": "(\\.|^)*geo-prod\\.do\\.dsp\\.mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186702,
+        "date_modified": 1590186702,
+        "comment": ""
+    },
+    {
+        "id": 342,
+        "type": 2,
+        "domain": "(\\.|^)*img-prod-cms-rt-microsoft-com*$",
+        "enabled": 1,
+        "date_added": 1590186721,
+        "date_modified": 1590186721,
+        "comment": ""
+    },
+    {
+        "id": 343,
+        "type": 2,
+        "domain": "(\\.|^)smartscreen\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590186744,
+        "date_modified": 1590186744,
+        "comment": ""
+    },
+    {
+        "id": 345,
+        "type": 2,
+        "domain": "(\\.|^)*prod\\.do\\.dsp\\.mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187102,
+        "date_modified": 1590187102,
+        "comment": ""
+    },
+    {
+        "id": 346,
+        "type": 2,
+        "domain": "(\\.|^)*purchase\\.md\\.mp\\.microsoft\\.com\\.akadns\\.net$",
+        "enabled": 1,
+        "date_added": 1590187111,
+        "date_modified": 1590187111,
+        "comment": ""
+    },
+    {
+        "id": 347,
+        "type": 2,
+        "domain": "(\\.|^)*settings\\.data\\.microsoft\\.com\\.akadns\\.net$",
+        "enabled": 1,
+        "date_added": 1590187123,
+        "date_modified": 1590187123,
+        "comment": ""
+    },
+    {
+        "id": 348,
+        "type": 2,
+        "domain": "(\\.|^)*wac\\.phicdn\\.net*$",
+        "enabled": 1,
+        "date_added": 1590187131,
+        "date_modified": 1590187131,
+        "comment": ""
+    },
+    {
+        "id": 349,
+        "type": 2,
+        "domain": "(\\.|^)*windowsupdate\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187139,
+        "date_modified": 1590187139,
+        "comment": ""
+    },
+    {
+        "id": 350,
+        "type": 2,
+        "domain": "(\\.|^)fe3\\.*\\.mp\\.microsoft\\.com\\.*$",
+        "enabled": 1,
+        "date_added": 1590187155,
+        "date_modified": 1590187155,
+        "comment": ""
+    },
+    {
+        "id": 352,
+        "type": 2,
+        "domain": "(\\.|^)purchase\\.mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187181,
+        "date_modified": 1590187181,
+        "comment": ""
+    },
+    {
+        "id": 353,
+        "type": 2,
+        "domain": "(\\.|^)sls\\.update\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187208,
+        "date_modified": 1590187208,
+        "comment": ""
+    },
+    {
+        "id": 354,
+        "type": 2,
+        "domain": "(\\.|^)slscr\\.update\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187212,
+        "date_modified": 1590187212,
+        "comment": ""
+    },
+    {
+        "id": 355,
+        "type": 2,
+        "domain": "(\\.|^)store*\\.dsx\\.mp\\.microsoft\\.com*$",
+        "enabled": 1,
+        "date_added": 1590187220,
+        "date_modified": 1590187220,
+        "comment": ""
+    },
+    {
+        "id": 362,
+        "type": 2,
+        "domain": "(\\.|^)xp1\\.ru4\\.com$",
+        "enabled": 1,
+        "date_added": 1596736958,
+        "date_modified": 1596736958,
+        "comment": null
+    },
+    {
+        "id": 1263,
+        "type": 2,
+        "domain": "(\\.|^)s{1\\.\\.5}\\.symcb\\.com$",
+        "enabled": 1,
+        "date_added": 1609313509,
+        "date_modified": 1609313509,
+        "comment": "From vincentkenny01\/spotblock"
+    },
+    {
+        "id": 2284,
+        "type": 2,
+        "domain": ".ledgerwallet.com",
+        "enabled": 1,
+        "date_added": 1617961175,
+        "date_modified": 1617961175,
+        "comment": null
+    }
+]
