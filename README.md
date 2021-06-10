@@ -5,7 +5,7 @@ Also some usefull commands and in the future my wireshark vpn configuration
 At the moment i am using 56 adlists. All sorted inside adlist.txt.
 Together there are more than 2 million entries inside these lists.
 
-![DomainsOnBlocklist](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/Domains.png)
+![DomainsOnBlocklist](https://gitlab.com/lichs/Pihole/-/raw/master/Image/Domains.png)
 
 ### my own blocklists as raw file
 
@@ -110,7 +110,7 @@ That's it. The proxy configuration on the network is now safe.
 
 [Windows Terminal](https://github.com/microsoft/terminal)
 
-![Windows Terminal Profiles](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/WTProfiles.png)
+![Windows Terminal Profiles](https://gitlab.com/lichs/Pihole/-/raw/master/Image/WTProfiles.png)
 
 # Commands
 ### Sort adlist
