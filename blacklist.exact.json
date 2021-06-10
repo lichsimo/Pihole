@@ -1,0 +1,47 @@
+[
+    {
+        "id": 2206,
+        "type": 1,
+        "domain": "disc-soft.com",
+        "enabled": 1,
+        "date_added": 1609316228,
+        "date_modified": 1609316228,
+        "comment": null
+    },
+    {
+        "id": 2207,
+        "type": 1,
+        "domain": "secure.disc-soft.com",
+        "enabled": 1,
+        "date_added": 1609316228,
+        "date_modified": 1609316228,
+        "comment": null
+    },
+    {
+        "id": 2208,
+        "type": 1,
+        "domain": "rp.totafofesos1.com",
+        "enabled": 1,
+        "date_added": 1609316228,
+        "date_modified": 1609316228,
+        "comment": null
+    },
+    {
+        "id": 2209,
+        "type": 1,
+        "domain": "os.totafofesos1.com",
+        "enabled": 1,
+        "date_added": 1609316228,
+        "date_modified": 1609316228,
+        "comment": null
+    },
+    {
+        "id": 2210,
+        "type": 1,
+        "domain": "os2.totafofesos1.com",
+        "enabled": 1,
+        "date_added": 1609316228,
+        "date_modified": 1609316228,
+        "comment": null
+    }
+]

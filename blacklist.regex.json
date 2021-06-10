@@ -1,0 +1,110 @@
+[
+    {
+        "id": 2211,
+        "type": 3,
+        "domain": "*sn-cu-aigs7.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2212,
+        "type": 3,
+        "domain": "heads*-ak.spotify.com.edgesuite.net",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2213,
+        "type": 3,
+        "domain": "(^|\\.)samsungads\\.com$",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2217,
+        "type": 3,
+        "domain": "r*---*.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2218,
+        "type": 3,
+        "domain": "r*--sn-5hnedn7l.googlevide.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2219,
+        "type": 3,
+        "domain": "r*-5hne6nsk.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2220,
+        "type": 3,
+        "domain": "r*-ajtee.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2221,
+        "type": 3,
+        "domain": "r*-ajtel.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2222,
+        "type": 3,
+        "domain": "r*-ajtes.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2223,
+        "type": 3,
+        "domain": "r*-ajtez.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2224,
+        "type": 3,
+        "domain": "r*-googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    },
+    {
+        "id": 2225,
+        "type": 3,
+        "domain": "r*.*5hnekn**.googlevideo.com",
+        "enabled": 1,
+        "date_added": 1609316744,
+        "date_modified": 1609316744,
+        "comment": "Regex"
+    }
+]

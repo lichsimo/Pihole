@@ -1,13 +1,6 @@
-disc-soft.com
-secure.disc-soft.com
-rp.totafofesos1.com
-os.totafofesos1.com
-os2.totafofesos1.com
+
+(^|\.)samsungads\.com$
 *sn-cu-aigs7.googlevideo.com
-heads*-ak.spotify.com.edgesuite.net
-(^|\.)samsungads\.com$
-(^|\.)samsungads\.com$
-heads*-ak.spotify.com.edgesuite.net
 heads*-ak.spotify.com.edgesuite.net
 r*---*.googlevideo.com
 r*--sn-5hnedn7l.googlevide.com
@@ -18,3 +11,4 @@ r*-ajtes.googlevideo.com
 r*-ajtez.googlevideo.com
 r*-googlevideo.com
 r*.*5hnekn**.googlevideo.com
+
