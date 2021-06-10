@@ -20,7 +20,7 @@ blacklist.txt is my blacklist with Youtube regex domains and some entries for sp
 Collection from own experience, many many reddit threats and other github repositories.
 
 # Config
-### DoH with `Digitale Gesellschafft DNS` via cloudflared argo tunnel
+### DoH via cloudflared argo tunnel
 
 ### Installing
 ``` bash
@@ -32,7 +32,8 @@ cloudflared -v
 ```
 
 ### Configuration 
-cloudflared will be installed as root
+Cloudflared will be installed as root<br>
+Under proxy-dns-upstream you can define your doh counterpart
 ``` bash
 # create configuration
 sudo mkdir /etc/cloudflared/
@@ -42,8 +43,8 @@ sudo nano /etc/cloudflared/config.yml
 proxy-dns: true
 proxy-dns-port: 5053
 proxy-dns-upstream:
-    - https://dns.digitale-gesellschaft.ch/dns-query
-    #- https://1.1.1.1/dns-query
+    #- https://dns.digitale-gesellschaft.ch/dns-query
+    - https://1.1.1.1/dns-query #cloudflared
 
 # install service via cloudflared 
 sudo cloudflared service install --legacy
@@ -63,6 +64,9 @@ dig @127.0.0.1 -p 5053 www.gitlab.com
 ``` bash
 cloudflared update
 ```
+
+### TODO
+- Autoupdate cloudflared
 
 # Catch  WPAD Request
 ### wpad.fritz.box
