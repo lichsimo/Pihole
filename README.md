@@ -68,7 +68,7 @@ cloudflared update
 ### TODO
 - Autoupdate cloudflared
 
-# Catch  WPAD Request
+# Catch  WPAD Request76
 ### wpad.fritz.box
 More informations (in german): https://technikbench.de/pi-hole-wpad-deaktivieren/
 ### Step 1: Direct all wpad domains to the Pi-Hole
@@ -113,38 +113,42 @@ That's it. The proxy configuration on the network is now safe.
 ![Windows Terminal Profiles](https://raw.githubusercontent.com/lichsimo/Pihole/master/Image/WTProfiles.png)
 
 # Commands
-### Sort txt
-```
-(Get-Content .\adlist.txt) | Sort | Out-File .\adlist.txt
+### Sort adlist
+``` powershell
+Get-Content .\adlist.txt | Sort | Out-File .\adlist.txt
 ```
 ### Convert Pihole Domain json to txt
-With `Format-Table` (FT) and the `-hidetableheaders` parameter i bypass the default PowerShell header output.
+With `Format-Table` (FT) and the `-hidetableheaders` parameter i bypass the default PowerShell header output. With (... | Out-String).trim() i delete the empty limes.
 
-**whitelist.exact**
+``` powershell
+(Get-Content .\blacklist.exact.json | ConvertFrom-Json | Select domain -Unique | Sort domain | FT -HideTableHeaders | Out-String).trim() | Out-File .\blacklist.exact.txt
 
-```
-$json = (Get-Content .\whitelist.exact.json) | Out-String | ConvertFrom-Json
-$json | Select domain | Sort domain | FT -hidetableheaders | Out-File .\whitelist.exact.txt
-```
-
-**whitelist.regex**
-```
-$json = (Get-Content .\whitelist.regex.json) | Out-String | ConvertFrom-Json
-$json | Select domain | Sort | FT -hidetableheaders | Out-File .\whitelist.regex.txt
-```
-### Select unique entries from a list
-```
-(Get-Content .\blocklist.spotify.txt) | Select -Unique | Out-File .\blocklist.spotify.txt
+# explanation
+# 1. Import the json file
+$json = Get-Content .\list.json | ConvertFrom-Json
+# 2. only select unique domains
+$domains = $json | Select domain -Unique
+# 3. sort the domains
+$domains = $domains | Sort
+# 4. format es table and hide the "header"
+$table = $domains | FT -HideTableHeaders
+# 5. remove empty lines
+$outString = ($table | Out-String).trim()
+# 6. write file
+$outString | Out-File .\list.txt
 ```
 
 ### Convert Pihole adlist json to txt
-```
-$json = (Get-Content .\adlist.json) | Out-String | ConvertFrom-Json
-$json | Select address | Sort | FT -hidetableheaders | Out-File .\adlist.txt
+``` powershell
+(Get-Content .\adlist.json | ConvertFrom-Json | Select address -Unique | Sort address | FT -HideTableHeaders | Out-String).trim() | Out-File .\adlist.txt
 ```
 
-## Pihole | Linux
-### remove all adlist entries from gravity.db
+### Select unique entries from a list
+``` powershell
+(Get-Content .\unsorted_not_unique_list.txt) | Select -Unique | Sort | Out-File .\sorted_unique_list.txt
 ```
+
+### remove all adlist entries from gravity.db
+``` bash
 sudo sqlite3 /etc/pihole/gravity.db "DELETE FROM adlist;"
 ```
